@@ -9,5 +9,7 @@ export default () => {
     if (ref.current) mount(ref.current);
   }, [ref]);
 
+  console.log("hello world");
+
   return <div ref={ref} />;
 };
