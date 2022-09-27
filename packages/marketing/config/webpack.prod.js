@@ -9,6 +9,7 @@ const prodConfig = {
   entry: "./src/index.js",
   output: {
     filename: "[name].[contenthash].js",
+    publicPath: "/marketing/latest/",
   },
   plugins: [
     new ModuleFederationPlugin({
