@@ -6,7 +6,7 @@ const packageJson = require("./../package.json");
 const commonConfig = require("./webpack.common");
 
 const devConfig = {
-  entryPoint: "./src/index.js",
+  entry: "./src/index.js",
   mode: "development",
   devServer: {
     port: 8080,
